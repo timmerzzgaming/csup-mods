@@ -1,8 +1,11 @@
 # Changelog
 
-## v0.1.4 (2026-11-01)
+## v0.1.5 (2026-11-01)
 
-- Permanent Discord invite link in the welcome panel, the setup and the instructions
+- Discord invite link in the welcome panel, the setup and the instructions
+- Shorter wording in the welcome panel, the instructions and the Stig Challenge description
+
+(v0.1.4 was an internal build and was not released.)
 
 ## v0.1.3 (2026-11-01)
 
