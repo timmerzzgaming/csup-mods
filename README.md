@@ -28,7 +28,7 @@ What each mod does and how to use it (tyre choice, starting fuel, Power Boost, J
 
 ## Feedback and help
 
-- **Discord:** [join the Timmerzz server](https://discord.gg/hhmdUT3pd), channel `#csup-feedback`
+- **Discord:** [join the Timmerzz server](https://discord.gg/mSatCc2Z94), channel `#csup-feedback`
 - **GitHub:** [report a bug](../../issues/new?template=bug.yml) or [suggest an idea](../../issues/new?template=idea.yml)
 
 Please always mention your **version number** (shown in the welcome panel in the main menu) and, after a crash, attach `BepInEx\LogOutput.log` from your modded game folder.
