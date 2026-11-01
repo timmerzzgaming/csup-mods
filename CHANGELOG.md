@@ -1,11 +1,15 @@
 # Changelog
 
-## v0.1.2 (2026-11-01)
+## v0.1.3 (2026-11-01)
 
 First public test pack. 23 mods.
 
+- Version number shown in the welcome panel, the watermark and the setup
+
+## v0.1.2 (2026-11-01)
+
+
 - On/off switch per mod, so you can turn off a single mod that causes trouble
-- Everything from v0.1.1 below
 
 ## v0.1.1 (2026-11-01)
 

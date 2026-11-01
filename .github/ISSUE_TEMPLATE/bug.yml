@@ -6,7 +6,7 @@ body:
     id: version
     attributes:
       label: Mod version
-      description: Shown in the welcome panel in the main menu (for example v0.1.2)
+      description: Shown in the welcome panel in the main menu (for example v0.1.3)
     validations:
       required: true
   - type: input

@@ -33,7 +33,7 @@ Please always mention your **version number** (shown in the welcome panel in the
 
 Every update gets the next number, so a higher number is always newer:
 
-- **v0.1.2 → v0.1.3 → v0.1.4 …** fixes and small changes
+- **v0.1.3 → v0.1.4 → v0.1.5 …** fixes and small changes
 - **v0.2.0** a bigger update, for example new mods
 - **v1.0.0** the first stable version
 
