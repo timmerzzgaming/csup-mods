@@ -1,3 +1,39 @@
-# csup-mods
+# Circuit Superstars Mods (unofficial)
 
-Unofficial mods for Circuit Superstars.
+A modpack for **Circuit Superstars** by Timmerzz: race options, weather and time of day, track tweaks, Time Trial tools and more.
+
+> This is an **unofficial** mod. It is not made or supported by Original Fire Games (OFG), but is shared with their permission.
+> Please do not report modded problems to OFG; use the feedback links below.
+
+## Download
+
+**[⬇ Latest release](../../releases/latest)**
+
+The download is a `.zip` with an `Install.bat` inside. See **[INSTALL.md](INSTALL.md)** for step-by-step instructions.
+
+## Requirements
+
+- Circuit Superstars on Steam (Windows). Steam must be running when you start the game.
+- The Kart requires **Karting Superstars**.
+
+## Good to know
+
+- The mods run in a **separate copy** of the game. Your Steam installation stays vanilla, so online play and Steam updates keep working.
+- Single player and Time Trial only. Modded lap times never reach the official leaderboards.
+- Uninstall: delete the modded copy folder.
+
+## Feedback and help
+
+- **Discord:** the Timmerzz server, channel `#csup-feedback` (invite link coming soon)
+- **GitHub:** [report a bug](../../issues/new?template=bug.yml) or [suggest an idea](../../issues/new?template=idea.yml)
+
+Please always mention your **pack code** (shown in the welcome panel in the main menu) and, after a crash, attach `BepInEx\LogOutput.log` from your modded game folder.
+
+## Changes
+
+See [CHANGELOG.md](CHANGELOG.md).
+
+## Credits
+
+Built on [BepInEx](https://github.com/BepInEx/BepInEx) and [HarmonyX](https://github.com/BepInEx/HarmonyX). See [THIRD-PARTY.md](THIRD-PARTY.md).
+No game files from OFG are distributed in this repository or its releases.

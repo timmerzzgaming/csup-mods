@@ -1,0 +1,33 @@
+name: Bug report
+description: Something does not work or the game crashes
+labels: [bug]
+body:
+  - type: input
+    id: packcode
+    attributes:
+      label: Pack code
+      description: Shown in the welcome panel in the main menu (for example 94AEDF)
+    validations:
+      required: true
+  - type: input
+    id: mod
+    attributes:
+      label: Which mod?
+      placeholder: e.g. Race Options, Winter, Ghosts, or "not sure"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log file
+      description: Drag `BepInEx\LogOutput.log` from your modded game folder into this box.
+  - type: input
+    id: game
+    attributes:
+      label: Game version
+      description: Optional, shown in the bottom corner of the main menu

@@ -1,0 +1,25 @@
+# Posts a message to the Timmerzz Discord (#csup-downloads) for every published release.
+# Needs the repository secret DISCORD_WEBHOOK_CSUP (the channel's webhook URL).
+name: Discord release message
+on:
+  release:
+    types: [published]
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post to Discord
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_CSUP }}
+          NAME: ${{ github.event.release.name }}
+          TAG: ${{ github.event.release.tag_name }}
+          URL: ${{ github.event.release.html_url }}
+          BODY: ${{ github.event.release.body }}
+          PRE: ${{ github.event.release.prerelease }}
+        run: |
+          if [ -z "$WEBHOOK" ]; then echo "No DISCORD_WEBHOOK_CSUP secret set, skipping."; exit 0; fi
+          TITLE="${NAME:-$TAG}"
+          if [ "$PRE" = "true" ]; then TITLE="🧪 $TITLE (test)"; fi
+          jq -n --arg t "$TITLE" --arg u "$URL" --arg b "${BODY:0:1500}" \
+            '{username:"Timmerzz Releases", embeds:[{title:$t, url:$u, description:$b, color:15105570, footer:{text:"Download via the link above"}}]}' \
+          | curl -sS --fail -H "Content-Type: application/json" -d @- "$WEBHOOK"
