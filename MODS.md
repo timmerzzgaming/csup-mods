@@ -26,7 +26,7 @@ Dry, light rain, heavy rain, or **Changing** (showers come and go during the rac
 - Dry: **Soft** (fastest, wears quickly) → **Medium** → **Hard** (slowest, lasts longest).
 - With weather on, **Intermediate** (green, damp to wet) and **Wet** (blue, heavy rain) are added to the cycle.
 - The tyres are changed when you **drive into the pits**. You can still change your mind while you are in the pit lane.
-- A race that starts in the rain starts everyone on suitable tyres. After that, reading the weather is up to you: the AI pits for the right tyres too.
+- **Your starting tyre is chosen for you:** the tyre that best suits the weather at the start. **Medium** when it is dry, **Intermediate** on a damp track, **Wet** in heavy rain. After that, reading the weather is up to you: the AI pits for the right tyres too.
 - The HUD tyre gauge shows what you have on: white slicks, green inters, blue wets.
 - You can change the key under **Settings → Controls → Change tyres**.
 
