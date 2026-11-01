@@ -16,6 +16,10 @@ The download is a `.zip` with an `Install.bat` inside. See **[INSTALL.md](INSTAL
 - Circuit Superstars on Steam (Windows). Steam must be running when you start the game.
 - The Kart requires **Karting Superstars**.
 
+## The mods
+
+What each mod does and how to use it (tyre choice, starting fuel, Power Boost, Joker laps and more): **[MODS.md](MODS.md)**.
+
 ## Good to know
 
 - The mods run in a **separate copy** of the game. Your Steam installation stays vanilla, so online play and Steam updates keep working.
@@ -27,11 +31,17 @@ The download is a `.zip` with an `Install.bat` inside. See **[INSTALL.md](INSTAL
 - **Discord:** the Timmerzz server, channel `#csup-feedback` (invite link coming soon)
 - **GitHub:** [report a bug](../../issues/new?template=bug.yml) or [suggest an idea](../../issues/new?template=idea.yml)
 
-Please always mention your **pack code** (shown in the welcome panel in the main menu) and, after a crash, attach `BepInEx\LogOutput.log` from your modded game folder.
+Please always mention your **version number** (shown in the welcome panel in the main menu) and, after a crash, attach `BepInEx\LogOutput.log` from your modded game folder.
 
-## Changes
+## Versions
 
-See [CHANGELOG.md](CHANGELOG.md).
+Every update gets the next number, so a higher number is always newer:
+
+- **v0.1.3 → v0.1.4 → v0.1.5 …** fixes and small changes
+- **v0.2.0** a bigger update, for example new mods
+- **v1.0.0** the first stable version
+
+While the version starts with 0, the pack is still in testing. See [CHANGELOG.md](CHANGELOG.md) for what changed in each version.
 
 ## Credits
 
