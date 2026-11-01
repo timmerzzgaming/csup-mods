@@ -16,6 +16,10 @@ The download is a `.zip` with an `Install.bat` inside. See **[INSTALL.md](INSTAL
 - Circuit Superstars on Steam (Windows). Steam must be running when you start the game.
 - The Kart requires **Karting Superstars**.
 
+## The mods
+
+What each mod does and how to use it (tyre choice, starting fuel, Power Boost, Joker laps and more): **[MODS.md](MODS.md)**.
+
 ## Good to know
 
 - The mods run in a **separate copy** of the game. Your Steam installation stays vanilla, so online play and Steam updates keep working.
