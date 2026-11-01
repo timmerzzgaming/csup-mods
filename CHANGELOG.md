@@ -1,8 +1,15 @@
 # Changelog
 
+## Test v0.1.2 (pack code 5C255D), 2026-11-01
+
+First public test pack. 23 mods.
+
+- On/off switch per mod, so you can turn off a single mod that causes trouble
+- Everything from v0.1.1 below
+
 ## Test v0.1.1 (pack code 94AEDF), 2026-11-01
 
-First pack for the tester group. 23 mods.
+Internal tester build.
 
 - Main-menu welcome panel with pack code and feedback link
 - Time Trial: only Race Data and Ghosts are active; all included mods are Time Trial-safe
