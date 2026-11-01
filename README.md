@@ -2,7 +2,7 @@
 
 A modpack for **Circuit Superstars** by Timmerzz: race options, weather and time of day, track tweaks, Time Trial tools and more.
 
-> This is an **unofficial** mod. It is not made or supported by Original Fire Games (OFG), but is shared with their permission.
+> This is an **unofficial** mod. It is not made or supported by Original Fire Games (OFG).
 > Please do not report modded problems to OFG; use the feedback links below.
 
 ## Download
