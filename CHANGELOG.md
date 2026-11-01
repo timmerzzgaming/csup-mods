@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.4 (2026-11-01)
+
+- Permanent Discord invite link in the welcome panel, the setup and the instructions
+
 ## v0.1.3 (2026-11-01)
 
 First public test pack. 23 mods.
@@ -7,7 +11,6 @@ First public test pack. 23 mods.
 - Version number shown in the welcome panel, the watermark and the setup
 
 ## v0.1.2 (2026-11-01)
-
 
 - On/off switch per mod, so you can turn off a single mod that causes trouble
 

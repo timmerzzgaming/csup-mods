@@ -2,7 +2,7 @@
 
 A modpack for **Circuit Superstars** by Timmerzz: race options, weather and time of day, track tweaks, Time Trial tools and more.
 
-> This is an **unofficial** mod. It is not made or supported by Original Fire Games (OFG), but is shared with their permission.
+> This is an **unofficial** mod. It is not made or supported by Original Fire Games (OFG).
 > Please do not report modded problems to OFG; use the feedback links below.
 
 ## Download
@@ -14,7 +14,6 @@ The download is a `.zip` with an `Install.bat` inside. See **[INSTALL.md](INSTAL
 ## Requirements
 
 - Circuit Superstars on Steam (Windows). Steam must be running when you start the game.
-- The Kart requires **Karting Superstars**.
 
 ## The mods
 
@@ -24,11 +23,12 @@ What each mod does and how to use it (tyre choice, starting fuel, Power Boost, J
 
 - The mods run in a **separate copy** of the game. Your Steam installation stays vanilla, so online play and Steam updates keep working.
 - Single player and Time Trial only. Modded lap times never reach the official leaderboards.
+- Not in this version yet: multiplayer, karts and custom cars, the track editor and the livery editor. They come later.
 - Uninstall: delete the modded copy folder.
 
 ## Feedback and help
 
-- **Discord:** the Timmerzz server, channel `#csup-feedback` (invite link coming soon)
+- **Discord:** [join the Timmerzz server](https://discord.gg/mSatCc2Z94), channel `#csup-feedback`
 - **GitHub:** [report a bug](../../issues/new?template=bug.yml) or [suggest an idea](../../issues/new?template=idea.yml)
 
 Please always mention your **version number** (shown in the welcome panel in the main menu) and, after a crash, attach `BepInEx\LogOutput.log` from your modded game folder.

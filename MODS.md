@@ -112,7 +112,7 @@ Every car and livery available, without having to unlock them first.
 Driver initials and livery colours on the minimap.
 
 ### Stig Challenge Access
-Opens the **Top Gear Stig Challenge**, which is no longer on sale, with OFG's agreement. If you don't own it, your Top Gear Time Trial times are not submitted.
+Opens the **Top Gear Stig Challenge**, which is no longer on sale. If you don't own it, your Top Gear Time Trial times are not submitted.
 
 ### Mod Menu
 **Settings → Mods**: an overview of the mods in this pack, plus the panel on the main menu. It only lets Time Trial times through while every mod is Time Trial safe.
