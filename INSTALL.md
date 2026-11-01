@@ -17,7 +17,7 @@
 
 1. Make sure Steam is running.
 2. Start `circuit-superstars.exe` in the **copied** folder.
-3. The welcome panel in the main menu shows your **pack code**. Mention it whenever you report something.
+3. The welcome panel in the main menu shows your **version number** (for example v0.1.2). Mention it whenever you report something.
 
 ## Troubleshooting
 
