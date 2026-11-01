@@ -8,7 +8,7 @@
    Windows may show *"Windows protected your PC"*: click *More info* → *Run anyway*.
 3. Start the game with the **CSUP Mods Test** shortcut (or `Launch This Copy.bat` in the copy). **Steam must be running.**
 
-The version number is shown at the bottom of the screen (*"CSUP test mod by Timmerzz - v0.1.3"*) and in the welcome panel. Mention it whenever you report something.
+The version number is shown at the bottom of the screen (*"CSUP test mod by Timmerzz - v0.1.4"*) and in the welcome panel. Mention it whenever you report something.
 
 How to use each mod: see **[MODS.md](MODS.md)**.
 
