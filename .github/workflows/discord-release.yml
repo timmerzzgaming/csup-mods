@@ -15,11 +15,14 @@ jobs:
           TAG: ${{ github.event.release.tag_name }}
           URL: ${{ github.event.release.html_url }}
           BODY: ${{ github.event.release.body }}
-          PRE: ${{ github.event.release.prerelease }}
         run: |
           if [ -z "$WEBHOOK" ]; then echo "No DISCORD_WEBHOOK_CSUP secret set, skipping."; exit 0; fi
-          TITLE="${NAME:-$TAG}"
-          if [ "$PRE" = "true" ]; then TITLE="🧪 $TITLE (test)"; fi
-          jq -n --arg t "$TITLE" --arg u "$URL" --arg b "${BODY:0:1500}" \
-            '{username:"Timmerzz Releases", embeds:[{title:$t, url:$u, description:$b, color:15105570, footer:{text:"Download via the link above"}}]}' \
+          # The release body is written in Discord formatting (see .github/RELEASE_TEMPLATE.md)
+          # and posted as a normal message, so headings, bold, lists and -# subtext look the same
+          # as a hand-written post. Link previews are suppressed (flags 4), nobody is pinged.
+          TEXT="$BODY"
+          if [ -z "$TEXT" ]; then TEXT="## 🏁 ${NAME:-$TAG}"; fi
+          case "$TEXT" in *"/releases/"*) ;; *) TEXT="$(printf '%s\n\n⬇️ Download: <%s>' "$TEXT" "$URL")";; esac
+          jq -n --arg c "${TEXT:0:2000}" \
+            '{username:"Timmerzz Releases", content:$c, flags:4, allowed_mentions:{parse:[]}}' \
           | curl -sS --fail -H "Content-Type: application/json" -d @- "$WEBHOOK"
