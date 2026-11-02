@@ -1,16 +1,18 @@
 # The mods, one by one
 
-What each mod does and how to use it. Version **v0.1.3**.
+What each mod does and how to use it. Version **v0.1.61**.
 
 ## Where to find the settings
 
 Most mods are switched on per race in **Free Play**:
 
 1. Start a Free Play race and open the race setup.
-2. The top row, **Settings page: Game / Mods**, switches between the normal settings and the **Mods** page.
+2. The top row, **Settings page: Game / Mods**, switches between the normal settings and the **Mods** page. On a controller **LB / RB** jump between the two pages from anywhere on the screen (**Page Up / Page Down** on a keyboard).
 3. On the Mods page every mod has an **Off / On** switch and starts **Off**. Switch it On and its settings unfold below it.
 
 **Settings → Mods** in the main menu shows an overview of every mod in the pack.
+
+**Settings → Controls** has the rows **Change tyres**, **Change fuel amount** and **Power boost**. On the keyboard tab the DEFAULT slot takes a key; on the controller tab select DEFAULT, press A, then your button (B cancels, Clear Control empties it). A pad button keeps its normal game action too, so pick one the game doesn't use while racing.
 
 **Time Trial:** only **Race Data** and **Ghosts** work there (plus Car Unlock and TT Board, which change nothing about driving). Every other mod switches itself off, so a Time Trial lap is a stock lap and counts on the official leaderboard as normal.
 
@@ -26,9 +28,13 @@ Dry, light rain, heavy rain, or **Changing** (showers come and go during the rac
 - Dry: **Soft** (fastest, wears quickly) → **Medium** → **Hard** (slowest, lasts longest).
 - With weather on, **Intermediate** (green, damp to wet) and **Wet** (blue, heavy rain) are added to the cycle.
 - The tyres are changed when you **drive into the pits**. You can still change your mind while you are in the pit lane.
-- **Your starting tyre is chosen for you:** the tyre that best suits the weather at the start. **Medium** when it is dry, **Intermediate** on a damp track, **Wet** in heavy rain. After that, reading the weather is up to you: the AI pits for the right tyres too.
+- **Start tyres** (row under Weather): **Auto** (the AI's own pick: the softest slick that lasts the race) / Soft / Medium / Hard. A rain start always gets the rain tyre.
+- **On the car screen** a "Start tyres" row shows the weather at the start. Press **T** to choose Auto / Soft / Medium / Hard / Inter / Wet for that race; a chosen tyre is fitted even if the weather disagrees. Single player only for now.
+- After the start, reading the weather is up to you: the AI pits for the right tyres too.
 - The HUD tyre gauge shows what you have on: white slicks, green inters, blue wets.
-- You can change the key under **Settings → Controls → Change tyres**.
+- You can change the key and the pad button under **Settings → Controls → Change tyres**.
+
+**The weather strip** at the top shows the rain now, the blue bar (% = how wet the track is), the yellow **dry line** bar (how dry the racing line is: stay on it in the wet for grip; when it fills, slicks get faster), your tyre with "T / B: next tyres", and the forecast. It hides while the results table is shown.
 
 ### Time of Day
 Day, dusk, night (with headlights), or a changing day that goes from day to night during the race.
@@ -40,7 +46,7 @@ Turns a circuit's tarmac into dirt.
 A full tank makes the car slower; it gets faster as the fuel burns off.
 
 - **Only works when the race's Fuel use is above zero** (normal race settings). Without fuel use there is nothing to burn and the effect is invisible.
-- **Choose your starting fuel:** on the grid you get about **8 seconds** before the countdown. Press **F** to step through **100 % → 75 % → 50 % → 25 %**. The screen shows `START FUEL` and the amount.
+- **Choose your starting fuel:** on the grid a **5-second countdown** says "Press F to change starting fuel". Press **F** to step through **100 % → 75 % → 50 % → 25 %**. When it reaches 0 your starting tank is locked.
 - **During the race** **F** sets how much fuel the crew puts in at your **next pit stop** (`NEXT FILL`). Less fuel means a shorter stop and a lighter car, but you may need to stop again.
 - Testers can change how strong the effect is in `BepInEx\config\csup.raceoptions.cfg`, section `[Fuel]`. See `instructions.txt` in the download. Please mention the values you used when you report on fuel.
 
@@ -58,7 +64,7 @@ Row **Winter: Off / Snow**. Any circuit becomes a snow track: snow, frost, falli
 
 ### Power Boost
 A battery that fills as you drive (most under braking) and gives about **3 seconds of extra power**.
-- Hold **Left Shift** (or **RB** on a pad) to use it.
+- Hold **Left Shift** (or **RB** on a pad) to use it. Change the key and button under **Settings → Controls → Power boost**.
 - Row options: **Off / On / On + AI** (with On + AI the AI cars use it too).
 - The blue bar with a lightning bolt next to the tyre and fuel gauges shows the charge.
 - Extra rows set the recharge speed, boost power and battery size.
@@ -94,7 +100,9 @@ Reverse routes for **Faenza (Rivazza)**, **Magdalena** and **Lost Lagoons**. The
 Sector times and the route's world record on the HUD, with the gap to your best lap. Press **F4** to hide or show it.
 
 ### Ghosts
-Race up to **five ghosts** of other drivers in Time Trial and Practice. Press **F8** on the Time Trial screen to choose them.
+Race up to **five ghosts** of other drivers in Time Trial and Practice. Press **F8** on the Time Trial screen to choose them. The automatic pick leaves you out: add **yourself** with F8 to race or watch your own lap.
+
+**Spectate custom ghosts** watches them with your car off the road. Tab / 1-0 or click a name to follow, Space pauses, ←/→ step, ↑/↓ speed. **Camera:** Q / E, the right stick or the right mouse button turn round the car; Z / X or the mouse wheel zoom; C resets.
 
 ### TT Board
 A bigger Time Trial leaderboard: 100+ places, scrolling, points and world rank.
@@ -115,7 +123,7 @@ Driver initials and livery colours on the minimap.
 Opens the **Top Gear Stig Challenge**, which is no longer on sale. If you don't own it, your Top Gear Time Trial times are not submitted.
 
 ### Mod Menu
-**Settings → Mods**: an overview of the mods in this pack, plus the panel on the main menu. It only lets Time Trial times through while every mod is Time Trial safe.
+**Settings → Mods**: an overview of the mods in this pack, plus the panel on the main menu (Enter, Esc, Space or A / B close it; D or Y hides it until the next version). It only lets Time Trial times through while every mod is Time Trial safe.
 
 ### Offline Boot
 Lets the modded copy start next to your normal Steam game. Nothing to do or test.

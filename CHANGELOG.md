@@ -1,5 +1,23 @@
 # Changelog
 
+## v0.1.61 (2026-11-02)
+
+New:
+- **Start tyres:** with Weather on, a "Start tyres" row in the race setup (Auto / Soft / Medium / Hard) and on the car screen (press **T**: Auto / Soft / Medium / Hard / Inter / Wet). Auto is the AI's own pick
+- **Starting fuel countdown:** 5 seconds on the grid with "Press F to change starting fuel", then the tank is locked. Fuel messages now also show with Weather off
+- **Controller buttons** for Change tyres, Change fuel amount (new row) and Power boost in Settings → Controls
+- **LB / RB** (Page Up / Page Down) switch the Free Play setup between the Game and Mods pages
+- **Ghost spectator camera:** turn round the followed car with Q / E, the right stick or the right mouse button; Z / X zoom, C resets
+- **Weather strip:** a quarter smaller, hidden while the results table is shown, and the yellow bar is labelled "dry line"
+- **Welcome panel:** easier to read; Enter, Esc, Space or A / B close it, D or Y hides it until the next version
+
+Fixed:
+- Racing or spectating your own lap as a custom ghost (add yourself with F8)
+- The tyre indicator in the standings no longer covers the team colour bar
+
+Under the hood:
+- Big Grid: groundwork for larger online grids; nothing changes in single player
+
 ## v0.1.6 (2026-11-01)
 
 - Discord invite link in the welcome panel, the setup and the instructions
