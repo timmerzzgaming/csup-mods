@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.1.62 (2026-11-02)
+
+New:
+- The "Settings page: Game / Mods" row shows **LB / RB** when a controller is connected and **PgUp / PgDn** when not
+
+Fixed:
+- Rows showing up twice in the Free Play setup after turning off the controller
+
 ## v0.1.61 (2026-11-02)
 
 New:
