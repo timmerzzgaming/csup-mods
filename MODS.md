@@ -1,13 +1,13 @@
 # The mods, one by one
 
-What each mod does and how to use it. Version **v0.1.62**.
+What each mod does and how to use it. Version **v0.1.61**.
 
 ## Where to find the settings
 
 Most mods are switched on per race in **Free Play**:
 
 1. Start a Free Play race and open the race setup.
-2. The top row, **Settings page: Game / Mods**, switches between the normal settings and the **Mods** page. On a controller **LB / RB** jump between the two pages from anywhere on the screen (**Page Up / Page Down** on a keyboard); the row shows the keys for what you are using.
+2. The top row, **Settings page: Game / Mods**, switches between the normal settings and the **Mods** page. On a controller **LB / RB** jump between the two pages from anywhere on the screen (**Page Up / Page Down** on a keyboard).
 3. On the Mods page every mod has an **Off / On** switch and starts **Off**. Switch it On and its settings unfold below it.
 
 **Settings → Mods** in the main menu shows an overview of every mod in the pack.
