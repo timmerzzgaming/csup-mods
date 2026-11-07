@@ -125,7 +125,7 @@ A bigger Time Trial leaderboard: 100+ places, scrolling, points and world rank.
 ## Race reports
 
 ### Replay Archive
-Every race you drive is kept in the `replays` folder of your game, also the old ones the game would delete after ten. Each event gets a report you open in your browser: results, lap times, the time-differences chart, positions, pit stops and a comparison of any two drivers. Qualifying and race show up together as one weekend, and `report.html` lists all your races and track records. Open it from **Race Reports** in the main menu, or from the panel after an event: **O** opens the report, **P** the folder.
+Every race you drive is kept in the `replays` folder of your game, also the old ones the game would delete after ten. Each event gets a report you open in your browser: results, lap times, the time-differences chart, positions, pit stops and a comparison of any two drivers. Qualifying and race show up together as one weekend, and `report.html` lists all your races and track records. Press **F1** in the menus (the main menu says so, bottom right) to open all reports, or use the panel after an event: **O** opens the report, **P** the folder, **D** posts it in our Discord's #csup-race-results with a link to the full report, **N** closes.
 
 ## Always on
 
