@@ -3,6 +3,7 @@
 ## v0.1.62 (2026-11-07)
 
 New:
+- **Race reports (Replay Archive):** every race is kept in the `replays` folder with a report per event; open it from **Race Reports** in the main menu
 - **AI Driver Sets:** your own AI names, colours and numbers in three sets, pick one per race (Garage → AI Drivers)
 - **AI Weather Sense** (on by default): in Changing weather the AI reads the forecast before it pits
 - **Limitless:** Free Play races up to 1000 laps, 1000 minutes or 1000 km
