@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.1.62 (2026-11-07)
+
+New:
+- **AI Driver Sets:** your own AI names, colours and numbers in three sets, pick one per race (Garage → AI Drivers)
+- **AI Weather Sense** (on by default): in Changing weather the AI reads the forecast before it pits
+- **Limitless:** Free Play races up to 1000 laps, 1000 minutes or 1000 km
+- **Tyre Letters:** every tyre icon shows its compound, S M H I W
+- **Time of day:** how fast a changing day runs and when the race starts
+- **Tyre compounds:** soft and hard grip and wear are set in the Free Play menu
+- **Smoother weather:** rain effects follow your graphics quality
+- The Weather mod is now called **More Weather and Tyres**; main switches on the Mods page end in "Mod"
+- The setup page row shows **LB / RB** with a controller and **PgUp / PgDn** without one
+- **Settings → Mods** is hidden for now; it comes back with the mod manager
+
+Fixed:
+- AI qualifies on softs, and soft, medium and hard really differ in grip and wear
+- Fair qualifying with Changing weather and Fuel load
+- PlayStation buttons on the mod control rows; one button no longer does two things
+- The Next tyres pop-up is readable again, smaller, under the weather bar
+- Doubled rows in the Free Play setup after turning off the controller
+
 ## v0.1.61 (2026-11-02)
 
 New:

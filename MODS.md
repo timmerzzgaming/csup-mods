@@ -1,6 +1,6 @@
 # The mods, one by one
 
-What each mod does and how to use it. Version **v0.1.61**.
+What each mod does and how to use it. Version **v0.1.62**.
 
 ## Where to find the settings
 
@@ -10,7 +10,7 @@ Most mods are switched on per race in **Free Play**:
 2. The top row, **Settings page: Game / Mods**, switches between the normal settings and the **Mods** page. On a controller **LB / RB** jump between the two pages from anywhere on the screen (**Page Up / Page Down** on a keyboard).
 3. On the Mods page every mod has an **Off / On** switch and starts **Off**. Switch it On and its settings unfold below it.
 
-**Settings → Mods** in the main menu shows an overview of every mod in the pack.
+The welcome panel on the main menu ("About this test release") lists the mods in the pack. The **Settings → Mods** tab is hidden for now; it comes back with the mod manager.
 
 **Settings → Controls** has the rows **Change tyres**, **Change fuel amount** and **Power boost**. On the keyboard tab the DEFAULT slot takes a key; on the controller tab select DEFAULT, press A, then your button (B cancels, Clear Control empties it). A pad button keeps its normal game action too, so pick one the game doesn't use while racing.
 
@@ -20,7 +20,7 @@ Most mods are switched on per race in **Free Play**:
 
 ## Race setup (Free Play → Mods page)
 
-### Weather
+### More Weather and Tyres (switch "Weather")
 Dry, light rain, heavy rain, or **Changing** (showers come and go during the race). A wet track has less grip, and the right tyre matters.
 
 **Choosing your tyres**
@@ -50,6 +50,9 @@ A full tank makes the car slower; it gets faster as the fuel burns off.
 - **During the race** **F** sets how much fuel the crew puts in at your **next pit stop** (`NEXT FILL`). Less fuel means a shorter stop and a lighter car, but you may need to stop again.
 - Testers can change how strong the effect is in `BepInEx\config\csup.raceoptions.cfg`, section `[Fuel]`. See `instructions.txt` in the download. Please mention the values you used when you report on fuel.
 
+### AI Weather Sense
+On by default. In **Changing** weather the AI reads the forecast before it pits, and goes for the tyre the coming laps need instead of the one that suits the track right now.
+
 ### AI Manners
 How much room the AI gives you: from **1 Aggressive** to **5 Very friendly**.
 
@@ -75,6 +78,9 @@ Rallycross rules. Two rows, each **Off / 1 / 2 / 3**:
 - **Joker drive-through:** you must drive through the pit lane that many times. **Don't stop in your box**, or it doesn't count. Works on almost every track.
 
 When to take your joker is your choice: early and you drop into traffic, late and you risk getting stuck.
+
+### Limitless
+Free Play races up to **1000 laps**, **1000 minutes** or **1000 km**. Past the stock limits the choosers take bigger steps (laps in tens, minutes and km in fives).
 
 ### Big Grid
 Up to **24 cars** on the Free Play grid. Above 12 cars, cars share pit boxes.
@@ -111,10 +117,18 @@ A bigger Time Trial leaderboard: 100+ places, scrolling, points and world rank.
 
 ---
 
+## Garage
+
+### AI Driver Sets
+**Garage → AI Drivers:** give the AI your own names, colours and numbers. Keep three sets and pick one per race.
+
 ## Always on
 
 ### Car Unlock
 Every car and livery available, without having to unlock them first.
+
+### Tyre Letters
+Every tyre icon shows its compound letter: **S** soft, **M** medium, **H** hard, **I** intermediate, **W** wet - in the standings, on the name tags and on the tyre gauge. Switch and size in the HUD group of the Mods page; only while Weather is on.
 
 ### Minimap
 Driver initials and livery colours on the minimap.
@@ -123,7 +137,7 @@ Driver initials and livery colours on the minimap.
 Opens the **Top Gear Stig Challenge**, which is no longer on sale. If you don't own it, your Top Gear Time Trial times are not submitted.
 
 ### Mod Menu
-**Settings → Mods**: an overview of the mods in this pack, plus the panel on the main menu (Enter, Esc, Space or A / B close it; D or Y hides it until the next version). It only lets Time Trial times through while every mod is Time Trial safe.
+The panel on the main menu, listing the mods in this pack (Enter, Esc, Space or A / B close it; D or Y hides it until the next version). It only lets Time Trial times through while every mod is Time Trial safe.
 
 ### Offline Boot
 Lets the modded copy start next to your normal Steam game. Nothing to do or test.
