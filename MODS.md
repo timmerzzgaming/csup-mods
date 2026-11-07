@@ -122,6 +122,11 @@ A bigger Time Trial leaderboard: 100+ places, scrolling, points and world rank.
 ### AI Driver Sets
 **Garage → AI Drivers:** give the AI your own names, colours and numbers. Keep three sets and pick one per race.
 
+## Race reports
+
+### Replay Archive
+Every race you drive is kept in the `replays` folder of your game, also the old ones the game would delete after ten. Each event gets a report you open in your browser: results, lap times, the time-differences chart, positions, pit stops and a comparison of any two drivers. Qualifying and race show up together as one weekend, and `report.html` lists all your races and track records. Open it from **Race Reports** in the main menu, or from the panel after an event: **O** opens the report, **P** the folder.
+
 ## Always on
 
 ### Car Unlock
