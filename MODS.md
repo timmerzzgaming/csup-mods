@@ -1,6 +1,6 @@
 # The mods, one by one
 
-What each mod does and how to use it. Version **v0.1.62**.
+What each mod does and how to use it. Version **v0.1.63**.
 
 ## Where to find the settings
 
@@ -42,6 +42,8 @@ Day, dusk, night (with headlights), or a changing day that goes from day to nigh
 ### Track Surface
 Turns a circuit's tarmac into dirt.
 
+**Knobbly tyres** (Tyres row under Track Surface): rally tyres with far more grip on dirt and a small price on tarmac. No Winter needed.
+
 ### Fuel Effect (row "Fuel load effect")
 A full tank makes the car slower; it gets faster as the fuel burns off.
 
@@ -67,7 +69,7 @@ Row **Winter: Off / Snow**. Any circuit becomes a snow track: snow, frost, falli
 
 ### Power Boost
 A battery that fills as you drive (most under braking) and gives about **3 seconds of extra power**.
-- Hold **Left Shift** (or **RB** on a pad) to use it. Change the key and button under **Settings → Controls → Power boost**.
+- Hold **Left Shift** (or **R3** on a pad, the right stick pressed in) to use it. Change the key and button under **Settings → Controls → Power boost**.
 - Row options: **Off / On / On + AI** (with On + AI the AI cars use it too).
 - The blue bar with a lightning bolt next to the tyre and fuel gauges shows the charge.
 - Extra rows set the recharge speed, boost power and battery size.
