@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.1.63 (2026-11-08)
+
+Hotfix.
+
+New:
+- **Knobbly tyres:** new Tyres row under Track Surface: rally tyres with far more grip on dirt and a small price on tarmac. No Winter needed
+
+Fixed:
+- Controller: L1 no longer also opens the leaderboard. New **Expand leaderboard** row in Settings → Controls, and Power boost now defaults to **R3** (a boost still on L1 moves there once)
+- In Dry races the tyre gauge takes your compound's colour and letter
+- In Dry races the top weather bar shows your current and next tyres, and the standings show everyone's tyre
+- No more flicker on the Mods page when changing a setting with left/right
+
 ## v0.1.62 (2026-11-07)
 
 New:
