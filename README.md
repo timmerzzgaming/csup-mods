@@ -8,7 +8,7 @@ A modpack for **Circuit Superstars** by Timmerzz: race options, weather and time
 
 **[⬇ Latest release](../../releases/latest)**
 
-The download is a `.zip` with an `Install.bat` inside. See **[INSTALL.md](INSTALL.md)** for step-by-step instructions.
+The download is a `.zip` with a `Setup.bat` inside. See **[INSTALL.md](INSTALL.md)** for step-by-step instructions.
 
 ## Requirements
 

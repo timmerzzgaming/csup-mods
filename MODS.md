@@ -42,7 +42,7 @@ Day, dusk, night (with headlights), or a changing day that goes from day to nigh
 ### Track Surface
 Turns a circuit's tarmac into dirt.
 
-**Knobbly tyres** (Tyres row under Track Surface): rally tyres with far more grip on dirt and a small price on tarmac. No Winter needed.
+**Knobbly tyres** (Tyres row under Track Surface): rally tyres with far more grip on dirt and a small price on tarmac. No Winter needed. The row only shows once the **Track Surface** switch is On, and only while Winter is Off.
 
 ### Fuel Effect (row "Fuel load effect")
 A full tank makes the car slower; it gets faster as the fuel burns off.
